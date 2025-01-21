@@ -1,0 +1,314 @@
+
+
+@media screen and (max-width: 430px) {
+
+    body {
+        width: 750px;
+    }
+
+
+    #name {
+        display: flex;
+        margin-left: 1rem;     
+    }
+
+    nav li {
+        display: none;
+    }
+
+    #bars {
+        display: flex;
+        font-size: 3rem;
+        margin-left: 30rem;
+    }
+
+    .intro {
+        display: flex;
+        padding-top: 6rem;
+        padding-right: 1rem;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    #aboutme {
+       height: 100rem;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+    }
+
+    .flexbox {
+        flex-wrap: wrap;
+        padding-top: 4rem;
+    }
+
+    .image {
+        margin-top: 0;
+    }
+
+    #services {
+        height: 70rem;
+    }
+
+    .flexbox1 {
+        margin-right: 7rem;
+        flex-wrap: wrap;
+    }
+
+    .web {
+        margin-bottom: 4rem;
+    }
+
+    #project {
+        height: 160rem;
+    }
+
+    .sub-heading p {
+        font-size: 1rem;
+        padding-right: 3rem;
+    }
+
+    .technologies h1 {
+        padding-right: 3rem;
+    }
+
+    .technologies img {
+        margin-right: 1rem;
+    }
+
+    .flexbox3 {
+        flex-wrap: wrap;
+        margin-left: 1rem;
+    }
+
+    .leonardo {
+        margin-top: 3rem;
+    }
+
+    .flex-container {
+        margin-right: 1rem;
+    }
+
+    .flexbox4 {
+        margin-right: 1rem;
+    }
+
+    .tech {
+        margin-right: 5rem;
+    }
+    
+    #contact {
+      height: 75rem;
+    }
+
+    .contact {
+        margin-right: 3rem;
+    }
+
+    .contact p {
+        font-size: 0.9rem;
+    }
+
+    .flexbox2 {
+        flex-wrap: wrap;
+        padding-top: 0;
+        margin-right: 7rem;
+    }
+
+    form {
+        height: 55vh;
+        width: 65vw;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    body {
+        width: 750px;
+    }
+
+    #name {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sub-heading {
+        padding-left: 5rem;
+    }
+
+    .technologies h1 {
+        margin-left: 5rem;
+    }
+
+    .flexbox3{
+        margin-left: 2rem;
+    }
+
+    .insurance {
+        margin-right: 1rem;
+    }
+
+    .flex-container {
+        margin-left: 2rem;
+    }
+
+    .unilag {
+        margin-left: 1rem;
+    }
+
+    .tech {
+        margin-left: 6rem;
+    }
+
+    .flexbox4 {
+        margin-left: 2rem;
+    }
+
+    .todolist {
+        margin-left: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+
+    body {
+        width: 750px;
+    }
+    
+    #name {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .intro {
+        padding-right: 4rem;
+        padding-top: 5rem;
+    }
+
+    .flexbox {
+        margin-right: 4rem;
+    }
+
+    .sub-heading {
+        margin-right: 5rem;   
+        text-align: center;
+    }
+
+    .technologies {
+        margin-right: 5rem;
+    }
+
+    .flexbox3 {
+        flex-wrap: wrap;
+        margin-right: 4rem;
+    }
+
+    .hotels {
+       margin-top: 3rem;
+       margin-left: 1rem;
+       margin-right: 1rem;
+   }
+
+   .flex-container {
+      flex-wrap: wrap;
+      margin-right: 4rem;
+    }
+
+    .unilag {
+        margin-top: 3rem;
+    }
+
+    .flexbox4 {
+        flex-wrap: wrap;
+        margin-right: 4rem;
+    }
+
+    .todolist {
+        margin-top: 3rem;
+    }
+
+    #project {
+        height: 260rem;
+    }
+
+    .contact {
+        margin-right: 5.5rem;
+    }
+
+    form {
+        height: 60vh;
+        width: 65vw;
+        margin-top: 4rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+    body {
+        width: 750px;
+    }
+
+    #name {
+        margin-left: 0;
+        margin-right: 4rem;
+    }
+
+    header {
+        height: 80vh;
+    }
+
+    .intro {
+        padding-right: 0;
+       padding-top: 3rem;
+    }
+    
+
+    form {
+        height: 75vh
+    }
+
+    .flexbox2 {
+        margin-right: 4rem;
+    }
+
+    .infos {
+        margin-top: 3rem;
+    }
+}
+    
+    
+
+
+@media screen and (max-width: 360px) {
+    
+    .intro {
+        padding-top: 8rem;
+    }
+
+    form {
+        height: 77vh;
+    }
+
+    .flexbox2 {
+        margin-right: 10rem;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 344px) {
+    
+    .intro {
+        padding-top: 8rem;
+    }
+
+    form {
+        height: 57vh;
+    }
+}
