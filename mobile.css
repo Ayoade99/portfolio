@@ -173,8 +173,12 @@
        margin-left: 15rem;
     }
 
-    header {
+    .navbar-links {
         height: 50vh;
+    }
+
+    header {
+        height: 100vh;
     }
 
     #aboutme {
@@ -187,11 +191,11 @@
     }
 
     .about {
-        height: 90vh;
+        height: 120vh;
     }
 
     form {
-        height: 55vh;
+        height: 75vh;
     }
 
     .tech {
@@ -199,12 +203,16 @@
         padding: 0 2rem;
     }
 
+    .web,.mobile  {
+        height: 50vh;
+    }
+
     .infos {
         margin-top: 3rem;
     }
 
     #contact {
-        height: 100rem;
+        height: 110rem;
     }
 }
     
