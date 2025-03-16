@@ -191,11 +191,11 @@
     }
 
     .about {
-        height: 120vh;
+        height: 150vh;
     }
 
     form {
-        height: 75vh;
+        height: 80vh;
     }
 
     .tech {
@@ -212,7 +212,7 @@
     }
 
     #contact {
-        height: 110rem;
+        height: 100rem;
     }
 }
     
