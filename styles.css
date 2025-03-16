@@ -32,13 +32,13 @@ header {
 
 .navbar {
     display: flex;
-    padding: 1.5rem 1rem;
 }
 
 .name {
     font-size: 1.5rem;
     margin-left: 2rem;
     margin-right: 20rem;
+    margin-top: 1rem;
 }
 
 span {

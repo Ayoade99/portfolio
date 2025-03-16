@@ -110,26 +110,28 @@
 
 @media screen and (max-width: 820px) {
 
-    #name {
+    .name {
         display: block;
-        margin-left: 1rem;
+        margin-left: 2rem;
         margin-right: 0;
     }
 
     .navbar-links {
         display: none;
-        flex-direction: column;
-        position: absolute;
+        width: 30vw;
+        height: 40vh;
         text-align: center;
         background-color: rgb(5, 1, 27);
+        position: absolute;
         top: 80px;
-        left: 0;
-        width: 100%;
-        padding: 20px 0;
+        right: 1rem;
+        z-index: 1;
     }
     
     .navbar-links a {
+        display: block;
         color: white;
+        padding-top: 1rem;
     }
 
     .show {
@@ -164,8 +166,13 @@
 
 @media screen and (max-width: 768px) {
     
-    #bars {
-        margin-left: 30rem;
+    .bar-icon {
+        margin-left: 35rem;
+        padding-top: 1rem;
+    }
+
+    .name {
+        margin-top: 1.5rem;
     }
 
     .intro {
@@ -185,39 +192,23 @@
     }
 }
 
- @media screen and (max-width: 642px) {
-    
-    body {
-      width: 750px;
-    }
-
-    #name {
-        margin-left: 1rem;
-        margin-right: 2rem;
-    }
-
-    header {
-        height: 100vh;
-    }
-
-    form {
-      height: 77vh;
-    }
-}
-
-
+ 
 @media screen and (max-width: 540px){
     
-    body {
-        width: 750px;
+    .bar-icon {
+        margin-left: 22rem;
+        padding-top: 1.5rem;
+        font-size: 2rem;
     }
 
-    #bars {
-        margin-left: 30rem;
-    }
-
-    #name {
+    .name {
         margin-left: 1rem;
+        margin-right: 0;
+    }
+
+    .navbar-links {
+        width: 40vw;
+        right: 1rem;
     }
 
     header {
@@ -229,7 +220,108 @@
         height: 70vh;
     }
 
+    #aboutme {
+        height: 100rem;
+    }
+
+    .flexbox {
+        flex-direction: column;
+    }
+
+    .about {
+        padding-left: 0;
+        padding-right: 4rem;
+        width: 100%;
+    }
+
+    .image {
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image img {
+        width: 25rem;
+    }
+
+    .web,.mobile {
+        height: 50vh;
+    }
+
+    .sub-heading p {
+        text-align: center;
+        padding: 0 3rem;
+    }
+
+    #project {
+        height: 250rem;
+    }
+
+    .hotels {
+        margin-top: 5rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .insurance {
+        margin: 0;
+    }
+
+    .flexbox3 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .noursydney,.unilag {
+        margin: 0;
+    }
+
+    .unilag {
+        margin-top: 5rem;
+    }
+
+    .flexbox4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .todolist {
+        margin: 0;
+    }
+
+    .guessgame {
+        margin-bottom: 4rem;
+    }
+
+    .contact p {
+        padding: 0 4rem;
+        text-align: center;
+    }
+
+    .flexbox2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact {
+        height: 150rem;
+    }
+
+    form {
+        margin-top: 10rem;
+    }
+
     
 }
+
 
 

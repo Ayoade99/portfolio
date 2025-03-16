@@ -1,35 +1,40 @@
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
 
-    body {
-        width: 750px;
-    }
-
-
-    #name {
+    .name {
         display: flex;
         margin-left: 1rem;     
+        margin-right: 0;
     }
 
     nav li {
         display: none;
     }
 
-    #bars {
+    .bar-icon {
         display: flex;
-        font-size: 3rem;
-        margin-left: 30rem;
+        font-size: 2rem;
+        margin-left: 15rem;
+        padding-top: 1.4rem;
     }
 
     .intro {
         display: flex;
-        padding-top: 6rem;
-        padding-right: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro h3 {
+        font-size: 2rem;
+    }
+
+    .intro p{
+        font-size: 1.2rem;
     }
 
     header {
-        height: 80vh;
+        height: 50vh;
     }
 
     #aboutme {
@@ -49,21 +54,39 @@
         margin-top: 0;
     }
 
+    .image img {
+        width: 20rem;
+    }
+
     #services {
-        height: 70rem;
+        height: 80rem;
+    }
+
+    #services h3 {
+        font-size: 2rem;
+        padding-top: 5rem;
     }
 
     .flexbox1 {
-        margin-right: 7rem;
-        flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
     }
 
-    .web {
-        margin-bottom: 4rem;
+    .web,.mobile {
+        width: 70vw;
+        height: 40vh;
+        margin-top: 4rem;
     }
 
     #project {
-        height: 160rem;
+        height: 270rem;
+    }
+
+    .technologies h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 2rem;
     }
 
     .sub-heading p {
@@ -71,17 +94,26 @@
         padding-right: 3rem;
     }
 
-    .technologies h1 {
-        padding-right: 3rem;
+    .sub-heading h3 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+ 
+    .technologies {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .technologies img {
-        margin-right: 1rem;
+    .noursydney,.unilag {
+        margin: 2rem 0;
     }
 
     .flexbox3 {
-        flex-wrap: wrap;
-        margin-left: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .leonardo {
@@ -89,27 +121,31 @@
     }
 
     .flex-container {
-        margin-right: 1rem;
+        justify-content: center;
+        align-items: center;
     }
 
     .flexbox4 {
-        margin-right: 1rem;
+        margin: 0;
     }
 
-    .tech {
-        margin-right: 5rem;
+    .tech h1 {
+        font-size: 1.4rem;
     }
     
     #contact {
-      height: 75rem;
+      height: 100rem;
     }
 
     .contact {
-        margin-right: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .contact p {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .flexbox2 {
@@ -125,190 +161,145 @@
     }
 }
 
-@media screen and (max-width: 414px) {
-
-    body {
-        width: 750px;
-    }
-
-    #name {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .sub-heading {
-        padding-left: 5rem;
-    }
-
-    .technologies h1 {
-        margin-left: 5rem;
-    }
-
-    .flexbox3{
-        margin-left: 2rem;
-    }
-
-    .insurance {
-        margin-right: 1rem;
-    }
-
-    .flex-container {
-        margin-left: 2rem;
-    }
-
-    .unilag {
-        margin-left: 1rem;
-    }
-
-    .tech {
-        margin-left: 6rem;
-    }
-
-    .flexbox4 {
-        margin-left: 2rem;
-    }
-
-    .todolist {
-        margin-left: 1rem;
-    }
-
-}
-
-@media screen and (max-width: 390px) {
-
-    body {
-        width: 750px;
-    }
-    
-    #name {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .intro {
-        padding-right: 4rem;
-        padding-top: 5rem;
-    }
-
-    .flexbox {
-        margin-right: 4rem;
-    }
-
-    .sub-heading {
-        margin-right: 5rem;   
-        text-align: center;
-    }
-
-    .technologies {
-        margin-right: 5rem;
-    }
-
-    .flexbox3 {
-        flex-wrap: wrap;
-        margin-right: 4rem;
-    }
-
-    .hotels {
-       margin-top: 3rem;
-       margin-left: 1rem;
-       margin-right: 1rem;
-   }
-
-   .flex-container {
-      flex-wrap: wrap;
-      margin-right: 4rem;
-    }
-
-    .unilag {
-        margin-top: 3rem;
-    }
-
-    .flexbox4 {
-        flex-wrap: wrap;
-        margin-right: 4rem;
-    }
-
-    .todolist {
-        margin-top: 3rem;
-    }
-
-    #project {
-        height: 260rem;
-    }
-
-    .contact {
-        margin-right: 5.5rem;
-    }
-
-    form {
-        height: 60vh;
-        width: 65vw;
-        margin-top: 4rem;
-    }
-
-
-}
-
 
 @media screen and (max-width: 375px) {
-    body {
-        width: 750px;
+    
+    .name {
+        margin-left: 1rem;
+        margin-right: 0;
     }
 
-    #name {
-        margin-left: 0;
-        margin-right: 4rem;
+    .bar-icon {
+       margin-left: 15rem;
     }
 
     header {
-        height: 80vh;
+        height: 50vh;
     }
 
-    .intro {
-        padding-right: 0;
-       padding-top: 3rem;
+    #aboutme {
+       height: 120rem;
     }
     
-
-    form {
-        height: 75vh
+    .image {
+        margin-left: 1.5rem;
+        margin-right: 0;
     }
 
-    .flexbox2 {
-        margin-right: 4rem;
+    .about {
+        height: 90vh;
+    }
+
+    form {
+        height: 55vh;
+    }
+
+    .tech {
+        text-align: center;
+        padding: 0 2rem;
     }
 
     .infos {
         margin-top: 3rem;
     }
-}
-    
-    
 
-
-@media screen and (max-width: 360px) {
-    
-    .intro {
-        padding-top: 8rem;
-    }
-
-    form {
-        height: 77vh;
-    }
-
-    .flexbox2 {
-        margin-right: 10rem;
-        flex-wrap: wrap;
+    #contact {
+        height: 100rem;
     }
 }
-
-@media screen and (max-width: 344px) {
     
-    .intro {
-        padding-top: 8rem;
+    
+@media screen and (max-width: 320px) {
+    
+    .bar-icon {
+        margin-left: 10rem;
     }
 
-    form {
-        height: 57vh;
+    .intro {
+        display: flex;
+        flex-direction: column;
+        text-align: center;    
     }
+
+    #aboutme {
+        height: 120rem;
+    }
+
+    .about {
+        height: 100vh;
+    }
+
+    .image img {
+        width: 15rem;
+    }
+
+    #services h3 {
+        font-size: 1.7rem;
+    }
+
+    .insurance img {
+        width: 90vw;
+    }
+
+    .insurance {
+        width: 90vw;
+    }
+
+    .hotels img {
+        width: 90vw;
+    }
+
+    .hotels {
+        width: 90vw;
+    }
+
+    .leonardo img {
+        width: 90vw;
+    }
+
+    .leonardo {
+        width: 90vw;
+    }
+
+    .noursydney img {
+        width: 90vw;
+    }
+
+    .noursydney {
+        width: 90vw;
+    }
+
+    .unilag img {
+        width: 90vw;
+    }
+
+    .unilag {
+        width: 90vw;
+    }
+
+    .guessgame img {
+        width: 90vw;
+    }
+
+    .guessgame {
+        width: 90vw;
+    }
+
+    .todolist img {
+        width: 90vw;
+    }
+
+    .todolist {
+        width: 90vw;
+    }
+
+    .infos p{
+        font-size: 1rem;
+    }
+
+    .info3 p {
+        padding-left: 6rem;
+    }
+
+    
 }
