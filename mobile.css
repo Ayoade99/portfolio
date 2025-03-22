@@ -1,6 +1,10 @@
 
+body {
+    overflow-x: hidden;
+}
 
 @media screen and (max-width: 425px) {
+
 
     .name {
         display: flex;
@@ -34,11 +38,11 @@
     }
 
     header {
-        height: 50vh;
+        height: 100vh;
     }
 
     #aboutme {
-       height: 100rem;
+       height: 70rem;
     }
 
     .about p {
@@ -48,14 +52,6 @@
     .flexbox {
         flex-wrap: wrap;
         padding-top: 4rem;
-    }
-
-    .image {
-        margin-top: 0;
-    }
-
-    .image img {
-        width: 20rem;
     }
 
     #services {
@@ -75,7 +71,7 @@
 
     .web,.mobile {
         width: 70vw;
-        height: 40vh;
+        height: 60vh;
         margin-top: 4rem;
     }
 
@@ -155,7 +151,7 @@
     }
 
     form {
-        height: 55vh;
+        height: 90vh;
         width: 65vw;
         margin-top: 4rem;
     }
@@ -182,7 +178,7 @@
     }
 
     #aboutme {
-       height: 120rem;
+       height: 80rem;
     }
     
     .image {
@@ -195,7 +191,7 @@
     }
 
     form {
-        height: 80vh;
+        height: 90vh;
     }
 
     .tech {
@@ -230,19 +226,19 @@
     }
 
     #aboutme {
-        height: 120rem;
+        height: 90rem;
     }
 
     .about {
         height: 100vh;
     }
 
-    .image img {
-        width: 15rem;
-    }
-
     #services h3 {
         font-size: 1.7rem;
+    }
+
+    .web,.mobile {
+        height: 55vh;
     }
 
     .insurance img {
@@ -267,6 +263,7 @@
 
     .leonardo {
         width: 90vw;
+        height: 90vh;
     }
 
     .noursydney img {

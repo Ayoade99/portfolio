@@ -1,7 +1,6 @@
 
 
 
-
 @media screen and (max-width: 1024px) {
     
     .name {
@@ -18,12 +17,12 @@
        padding-right: 4rem;
     }
 
-    .image img {
-        width: 20rem;
+    .image {
+        display: none;
     }
 
     .about {
-        margin-left: 2rem;
+        width: 80%;
     }
 
     .about p {
@@ -39,7 +38,7 @@
     }
 
     form {
-        height: 35vh;
+        height: 70vh;
     }
 }
 
@@ -175,6 +174,10 @@
         margin-top: 1.5rem;
     }
 
+    header {
+        height: 100vh;
+    }
+
     .intro {
         padding-top: 5rem;
     }
@@ -188,7 +191,7 @@
     }
 
     form {
-        height: 48vh;
+        height: 90vh;
     }
 }
 
@@ -217,11 +220,11 @@
 
     form {
         width: 50vw;
-        height: 70vh;
+        height: 90vh;
     }
 
     #aboutme {
-        height: 100rem;
+        height: 50rem;
     }
 
     .flexbox {
@@ -229,23 +232,17 @@
     }
 
     .about {
-        padding-left: 0;
+        padding-left: 2rem;
         padding-right: 4rem;
         width: 100%;
     }
 
     .image {
-        margin-right: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .image img {
-        width: 25rem;
+        display: none;
     }
 
     .web,.mobile {
+        width: 60vw;
         height: 50vh;
     }
 
