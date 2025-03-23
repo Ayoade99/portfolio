@@ -102,7 +102,7 @@ span {
 
 .about {
     margin-top: 2rem;
-    width: 50vw;
+    width: 40vw;
 }
 
 .about h3 {
@@ -118,7 +118,7 @@ span {
 }
 
 .image img{
-    width: 30vw;
+    width: 40vw;
     height: 70vh;
     border-radius: 15px;
     margin-top: 5rem;
