@@ -12,6 +12,21 @@ body {
         margin-right: 0;
     }
 
+    .navbar-links button {
+        background: none;
+        color: white;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .navbar-links button a {
+        color: white;
+    }
+
+    .navbar-links a {
+        font-size: 1rem;
+    }
+
     nav li {
         display: none;
     }
