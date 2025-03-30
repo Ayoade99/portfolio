@@ -8,6 +8,10 @@
         margin-right: 10rem;
     }
 
+    .navbar-links button {
+        margin-left: 4rem;
+    }
+
     header {
         height: 80vh;
     }
@@ -166,8 +170,17 @@
 @media screen and (max-width: 768px) {
     
     .bar-icon {
+        color: white;
         margin-left: 35rem;
         padding-top: 1rem;
+    }
+
+    .navbar-links {
+        height: 65vh;
+    }
+
+    .navbar-links button{
+        margin-left: 0;
     }
 
     .name {

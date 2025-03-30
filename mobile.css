@@ -19,7 +19,7 @@ body {
     .bar-icon {
         display: flex;
         font-size: 2rem;
-        margin-left: 15rem;
+        margin-left: 17rem;
         padding-top: 1.4rem;
     }
 
@@ -43,6 +43,10 @@ body {
 
     #aboutme {
        height: 70rem;
+    }
+
+    .about {
+        margin-left: 1.5rem;
     }
 
     .about p {
@@ -165,12 +169,16 @@ body {
         margin-right: 0;
     }
 
-    .bar-icon {
-       margin-left: 15rem;
+    .navbar-links {
+        height: 70vh;
     }
 
-    .navbar-links {
-        height: 50vh;
+    .navbar-links a {
+        font-size: 1rem;
+    }
+
+    .bar-icon {
+       margin-left: 15rem;
     }
 
     header {
@@ -219,6 +227,18 @@ body {
         margin-left: 10rem;
     }
 
+    header {
+        height: 150vh;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
+    .intro h3,.intro p {
+        font-size: 1rem;
+    }
+
     .intro {
         display: flex;
         flex-direction: column;
@@ -226,11 +246,12 @@ body {
     }
 
     #aboutme {
-        height: 90rem;
+        height: 70rem;
     }
 
     .about {
         height: 100vh;
+        margin-left: 0;
     }
 
     #services h3 {
