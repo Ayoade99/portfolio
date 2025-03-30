@@ -175,6 +175,17 @@
         padding-top: 1rem;
     }
 
+    .navbar-links button {
+        background: none;
+        color: white;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    .navbar-links button a {
+        color: white;
+    }
+
     .navbar-links {
         height: 65vh;
     }
