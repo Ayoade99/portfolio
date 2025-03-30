@@ -104,7 +104,7 @@ span {
 
 #aboutme {
     background-color: black;
-    height: 40rem;
+    height: 30rem;
     color: white;
 }
 
@@ -389,7 +389,8 @@ span {
 }
 
 .technologies img {
-    width: 15rem;
+    width: 10rem;
+    margin: 2rem 0;
 }
 
 .tech {
