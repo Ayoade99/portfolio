@@ -1,4 +1,9 @@
-
+@media screen and (max-width: 1440px) {
+    
+    form {
+        height: 60vh;
+    }
+}
 
 
 @media screen and (max-width: 1024px) {

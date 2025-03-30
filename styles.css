@@ -115,7 +115,6 @@ span {
 }
 
 .about {
-    /* margin-top: 2rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,22 +131,9 @@ span {
 }
 
 .about p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-top: 0.1rem;
 }
-
-/* .image img{
-    width: 40vw;
-    height: 70vh;
-    border-radius: 15px;
-    margin-top: 5rem;
-}
-
-.flexbox {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5rem;
-} */
 
 #services {
     background-color: black;
@@ -647,9 +633,12 @@ form h2 {
 
 form button {
     padding: 1rem 2rem;
-    color: black;
+    color: white;
+    background: black;
     font-size: 1.3rem;
     font-weight: bold;
+    outline: none;
+    border: none;
 }
 
 input:focus::placeholder {
