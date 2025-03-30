@@ -1,7 +1,11 @@
 @media screen and (max-width: 1440px) {
     
+    #contact {
+        height: 130vh;
+    }
+
     form {
-        height: 60vh;
+        height: 70vh;
     }
 }
 
