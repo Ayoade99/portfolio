@@ -459,7 +459,7 @@ span {
 
 #contact {
     background-color:black;
-    height: 200vh;
+    height: 200rem;
 }
 
 .contact {
@@ -593,7 +593,7 @@ span {
 form {
     background-color: white;
     width: 35vw;
-    height: 105vh;
+    height: 75vh;
     padding: 2rem;
 }
 
