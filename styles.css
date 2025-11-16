@@ -11,11 +11,10 @@ body {
 }
 
 header {
-    /* background-image: url('images/Background-Image.jpg'); */
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 150vh;
 }
 
 .navbar-links {
